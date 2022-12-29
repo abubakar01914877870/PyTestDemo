@@ -30,21 +30,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/abuba/AquaProjects/PyTestDemo/unitTest",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/abuba/AquaProjects/PyTestDemo/unitTest&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\abuba\AquaProjects\PyTestDemo\unitTest" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python tests.pytest in unitTest">
+    <configuration name="Python tests for test_demo2.test_ass" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PyTestDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_demo2.test_ass&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_demo.test_ass" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PyTestDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,10 +97,12 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest in unitTest" />
+      <item itemvalue="Python tests.Python tests for test_demo2.test_ass" />
       <item itemvalue="Python tests.Python tests for test_demo.test_ass" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_demo2.test_ass" />
         <item itemvalue="Python tests.Python tests for test_demo.test_ass" />
       </list>
     </recent_temporary>
@@ -95,7 +116,8 @@
       <option name="presentableId" value="Default" />
       <updated>1672228622110</updated>
       <workItem from="1672228622861" duration="821000" />
-      <workItem from="1672233054067" duration="1085000" />
+      <workItem from="1672233054067" duration="5417000" />
+      <workItem from="1672291049996" duration="962000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1672228761102</created>
