@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46f4d386-a2fc-4447-ba81-d5be589aa730" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/unitTest/test_get_base_url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyTestDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PyTestDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTest/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTest/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTest/test_demo2.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +24,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2JXdyKcZbDbM2yTF7C9qgUFubRf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -35,12 +46,15 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/abuba/AquaProjects/PyTestDemo/unitTest&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/PyTestDemo&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -48,22 +62,12 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\abuba\AquaProjects\PyTestDemo\unitTest" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PyTestDemo\unitTest" />
+      <recent name="C:\Users\User\PyTestDemo\unitTest\get" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in unitTest">
-    <configuration name="Python tests for test_demo2.test_ass" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PyTestDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_demo2.test_ass&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for test_get_base_url.test_json_key_and_value">
     <configuration name="Python tests for test_demo.test_ass" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PyTestDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,12 +82,81 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_get_base_url.test_json_key_and_value" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PyTestDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_get_base_url.test_json_key_and_value&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for unitTest.test_get_base_url.test_API_GET_Status_Code" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PyTestDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unitTest.test_get_base_url.test_API_GET_Status_Code&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for unitTest.test_get_base_url.test_API_GET_Status_Code" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PyTestDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTest/get" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unitTest.test_get_base_url.test_API_GET_Status_Code&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for unitTest.test_get_base_url.test_ass" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PyTestDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unitTest.test_get_base_url.test_ass&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for unitTest.test_get_base_url.test_json_key_and_value" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PyTestDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTest/get" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unitTest.test_get_base_url.test_json_key_and_value&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in unitTest" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="PyTestDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="C:\Users\abuba\AquaProjects\PyTestDemo\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.9 (PyTestDemo)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -97,13 +170,19 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest in unitTest" />
-      <item itemvalue="Python tests.Python tests for test_demo2.test_ass" />
+      <item itemvalue="Python tests.Python tests for test_get_base_url.test_json_key_and_value" />
+      <item itemvalue="Python tests.Python tests for unitTest.test_get_base_url.test_API_GET_Status_Code" />
+      <item itemvalue="Python tests.Python tests for unitTest.test_get_base_url.test_ass" />
+      <item itemvalue="Python tests.Python tests for unitTest.test_get_base_url.test_json_key_and_value" />
       <item itemvalue="Python tests.Python tests for test_demo.test_ass" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_demo2.test_ass" />
-        <item itemvalue="Python tests.Python tests for test_demo.test_ass" />
+        <item itemvalue="Python tests.Python tests for test_get_base_url.test_json_key_and_value" />
+        <item itemvalue="Python tests.Python tests for unitTest.test_get_base_url.test_API_GET_Status_Code" />
+        <item itemvalue="Python tests.Python tests for unitTest.test_get_base_url.test_json_key_and_value" />
+        <item itemvalue="Python tests.Python tests for unitTest.test_get_base_url.test_API_GET_Status_Code" />
+        <item itemvalue="Python tests.Python tests for unitTest.test_get_base_url.test_ass" />
       </list>
     </recent_temporary>
   </component>
