@@ -2,13 +2,13 @@ import pytest
 import requests
 
 
-def test_API_GET_Status_Code(shared_variable):
-    url = shared_variable["BASE_URL"]
-    response = requests.get(url)
+def test_response_status_code(shared_variable):
+    base_url = shared_variable["BASE_URL"]
+    response = requests.get(base_url)
     assert response.status_code == 200
 
 
-def test_json_key_and_value(shared_variable):
+def test_response_json_key_and_value(shared_variable):
     base_url = shared_variable["BASE_URL"]
     response = requests.get(base_url)
     response_json = response.json()
@@ -20,8 +20,8 @@ def test_json_key_and_value(shared_variable):
     assert base_url + "/episode" in response.text
 
 
-
-def test_ass():
-    print("I am inside test")
-    assert 2 + 2 == 4
-
+def test_api_response_header(shared_variable):
+    base_url = shared_variable["BASE_URL"]
+    response = requests.get(base_url)
+    assert "X-Nf-Request-Id" in response.headers
+    assert "Content-Type" in response.headers

@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46f4d386-a2fc-4447-ba81-d5be589aa730" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/unitTest/test_get_base_url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTestDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PyTestDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitTest/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTest/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitTest/test_demo2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTest/test_get_base_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTest/test_get_base_url.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +63,7 @@
       <recent name="C:\Users\User\PyTestDemo\unitTest\get" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_get_base_url.test_json_key_and_value">
+  <component name="RunManager" selected="Python tests.Python tests for test_get_base_url.test_api_response_header">
     <configuration name="Python tests for test_demo.test_ass" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PyTestDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,6 +75,20 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_demo.test_ass&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_get_base_url.test_api_response_header" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PyTestDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_get_base_url.test_api_response_header&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -124,20 +134,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for unitTest.test_get_base_url.test_ass" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PyTestDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unitTest.test_get_base_url.test_ass&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for unitTest.test_get_base_url.test_json_key_and_value" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PyTestDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,19 +166,19 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest in unitTest" />
+      <item itemvalue="Python tests.Python tests for test_get_base_url.test_api_response_header" />
       <item itemvalue="Python tests.Python tests for test_get_base_url.test_json_key_and_value" />
       <item itemvalue="Python tests.Python tests for unitTest.test_get_base_url.test_API_GET_Status_Code" />
-      <item itemvalue="Python tests.Python tests for unitTest.test_get_base_url.test_ass" />
       <item itemvalue="Python tests.Python tests for unitTest.test_get_base_url.test_json_key_and_value" />
       <item itemvalue="Python tests.Python tests for test_demo.test_ass" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_get_base_url.test_api_response_header" />
         <item itemvalue="Python tests.Python tests for test_get_base_url.test_json_key_and_value" />
         <item itemvalue="Python tests.Python tests for unitTest.test_get_base_url.test_API_GET_Status_Code" />
         <item itemvalue="Python tests.Python tests for unitTest.test_get_base_url.test_json_key_and_value" />
         <item itemvalue="Python tests.Python tests for unitTest.test_get_base_url.test_API_GET_Status_Code" />
-        <item itemvalue="Python tests.Python tests for unitTest.test_get_base_url.test_ass" />
       </list>
     </recent_temporary>
   </component>
@@ -205,11 +201,38 @@
       <option name="project" value="LOCAL" />
       <updated>1672228761102</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1699805084860</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699805084860</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1699805100497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699805100497</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
